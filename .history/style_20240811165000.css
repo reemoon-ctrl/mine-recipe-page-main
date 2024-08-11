@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+h1,h2{
+    font-weight: 400;
+    color:hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+.rec-img{
+    
+    
+    border-radius:10px ;
+    height: 300px;
+    background: url('/image-omelette.jpeg')no-repeat center center/cover;
+}
+.container{
+    background: #fff;
+    border-radius: 10px;
+    margin:auto;
+    /* margin: auto; */
+    max-width:690px;
+    padding: 20px;
+    
+}
+.page-center{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 960px;
+    align-items: center;
+    justify-content:space-around;
+}
+.prep-time{
+    background: hsl(330, 100%, 98%);
+    padding: 25px;
+    border-radius: 10px;
+}
+.prep-time li,li{
+    line-height: 1.8;
+    padding-left: 20px;
+}
+.prep-time ul,ul,ol{
+
+    padding:  0 20px;
+}
+ul li{
+    
+    color:hsl(24, 5%, 18%);
+}
+.prep-time ul li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+.prep-time h3{
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: hsl(332, 51%, 32%);
+    /*  */
+
+}
+.dark{
+    font-weight: 600;
+    color:hsl(30, 10%, 34%);
+}
+h1{
+    
+    padding: 20px 0;
+    font-size: 40px;
+
+    font-weight: 400;
+}
+header p{
+    padding-bottom:40px ;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+h2{
+    padding: 20px 0;
+    color: hsl(14, 45%, 36%);
+}
+ul li::marker,ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+#ingredient{
+    pad
+}
+
+#instruc li{
+    line-height: 1.2;
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 10px;
+}
+#instruc{
+    padding-bottom: 30px;
+    border-bottom: hsl(30, 10%, 34%) 1px solid ;
+    border-top: hsl(30, 10%, 34%) 1px solid ;
+}
+.calory{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}

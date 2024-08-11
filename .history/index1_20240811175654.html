@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+body{
+    background: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+h1,h2{
+    font-weight: 400;
+    color:hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+.rec-img{
+    
+    
+    border-radius:10px ;
+    height: 300px;
+    background: url('/image-omelette.jpeg')no-repeat center center/cover;
+}
+.container{
+    background: #fff;
+    border-radius: 10px;
+    /* margin:auto; */
+    margin: auto;
+    
+    max-width:690px;
+    padding: 20px;
+    
+}
+.page-center{
+    height: 230vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 960px;
+    align-items: center;
+    justify-content:center;
+}
+.prep-time{
+    background: hsl(330, 100%, 98%);
+    padding: 25px;
+    border-radius: 10px;
+}
+.prep-time li,li{
+    line-height: 1.8;
+    padding-left: 20px;
+}
+.prep-time ul,ul,ol{
+
+    padding:  0 20px;
+}
+ul li{
+    
+    color:hsl(24, 5%, 18%);
+}
+.prep-time ul li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+.prep-time h3{
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: hsl(332, 51%, 32%);
+    /*  */
+
+}
+.dark{
+    font-weight: 600;
+    color:hsl(30, 10%, 34%);
+}
+h1{
+    
+    padding: 20px 0;
+    font-size: 40px;
+
+    font-weight: 400;
+}
+header p{
+    padding-bottom:40px ;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+h2{
+    padding: 20px 0;
+    color: hsl(14, 45%, 36%);
+}
+ul li::marker,ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.ingredient {
+    padding-bottom: 30px;
+}
+
+#instruc li{
+    line-height: 1.2;
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 10px;
+}
+#instruc{
+    padding-bottom: 30px;
+    border-bottom: hsl(30, 10%, 34%) 1px solid ;
+    border-top: hsl(30, 10%, 34%) 1px solid ;
+}
+.calory{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: hidden;
+}
+.calory div:nth-of-type(even){
+    font-weight: 600;
+    color:hsl(14, 45%, 36%);
+    
+}
+.grid-item{
+    position:relative;
+    padding: 15px 0 15px 20px;
+
+} 
+.grid-item::after {
+   content: '';
+   position: absolute;
+   background-color: hsl(30, 10%, 34%);
+   z-index: 1;
+}
+.grid-item::after {
+    width: 100vw;
+    height: 1px;
+    left: 0;
+    top: -1px;
+  }
+
+.nutrition p{
+    padding-bottom: 25px;
+}
+
+    </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>ommelette</title>
+
+</head>
+<body>
+    <div class="page-center">
+        <div class="container">
+            <header>
+            <div class="rec-img"></div>
+            <h1>Simple Omelette Recipe</h1>
+        
+            <p>An easy and quick dish, perfect for any meal.
+            This classic omelette combines beaten eggs cooked 
+            to perfection, optionally filled with your choice 
+            of cheese,
+            vegetables, or meats.</p>
+            </header>
+
+            <div class="prep-time">
+                <h3>Preparation time</h3>
+                
+            
+                <ul>
+                <li><span class="dark">Total:</span> Approximately 10 minutes</li>
+                <li><span class="dark">Preparation:</span>Preparation: 5 minutes</li>
+                <li><span class="dark">Cooking:</span>Cooking: 5 minutes</li>
+                </ul>
+            </div>
+            <div class="ingredient">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>2-3 large eggs</li>
+                    <li>Salt, to taste</li>
+                    <li>Pepper, to taste</li>
+                    <li>1 tablespoon of butter or oil</li>
+                    <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+                </ul>
+            </div>
+
+            <div id="instruc">
+                <h2>Instructions</h2>
+                <ol >
+                    <li><span class="dark">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+                        You can add a tablespoon of water or milk for a fluffier texture.</li>
+                    <li><span class="dark">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                    <li><span class="dark">Cook the omelette:</span>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+                        the eggs evenly coat the surface.</li>
+                    <li><span class="dark">Add fillings (optional):</span>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+                        middle, sprinkle your chosen fillings over one half of the omelette.</li>
+                    <li><span class="dark">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the 
+                        fillings. Let it cook for another minute, then slide it onto a plate.</li>
+                    <li><span class="dark">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+               </ol>
+        
+            </div>
+            <div class="nutrition">
+            
+                <h2>Nutrition</h2>
+            
+                <p>The table below shows nutritional values per serving without the additional fillings.</p>
+                <div class="calory">
+                    <div class="grid-item">Calories</div>
+                    <div class="grid-item">277kcal</div>
+                
+                    <div class="grid-item">Carbs</div>
+                    <div class="grid-item">0g</div>
+                
+                    <div class="grid-item">Protein</div>
+                    <div class="grid-item">20g</div>
+                
+                    <div class="grid-item">Fat</div>
+                    <div class="grid-item">22g</div>
+                </div>
+            </div>
+         </div>  
+    </div>
+</body>
+</html>
