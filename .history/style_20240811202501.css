@@ -128,7 +128,6 @@ ul li::marker,ol li::marker{
 .grid-item{
     position:relative;
     padding: 15px 0 15px 20px;
-    color: hsl(30, 10%, 34%);
 
 } 
 .grid-item::after {

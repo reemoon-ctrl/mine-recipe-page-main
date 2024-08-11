@@ -112,8 +112,8 @@ ul li::marker,ol li::marker{
 }
 #instruc{
     padding-bottom: 30px;
-    border-bottom: hsl(30, 18%, 87%) 1px solid ;
-    border-top: hsl(30, 18%, 87%) 1px solid ;
+    border-bottom: hsl(30, 10%, 34%) 1px solid ;
+    border-top: hsl(30, 10%, 34%) 1px solid ;
 }
 .calory{
     display: grid;
@@ -128,7 +128,6 @@ ul li::marker,ol li::marker{
 .grid-item{
     position:relative;
     padding: 15px 0 15px 20px;
-    color: hsl(30, 10%, 34%);
 
 } 
 .grid-item::after {
@@ -146,6 +145,4 @@ ul li::marker,ol li::marker{
 
 .nutrition p{
     padding-bottom: 25px;
-    color: hsl(30, 10%, 34%);
-
 }
